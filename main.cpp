@@ -1,5 +1,7 @@
 #include    <iostream>
 #include    "CMakeTest.h"
+ #include    "good_morninglib.hpp"
+
 
 int main()
 {
@@ -7,4 +9,5 @@ int main()
 
     CMakeTest cmaketest;
     cmaketest.print_txt("Use CMakeTest Function");
+    good_morning();
 }
